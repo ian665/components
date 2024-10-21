@@ -7,18 +7,18 @@ function HomePage() {
 
       <header className="header">
         <div class="header-inner">
-          <button class="toggle-menu-button"></button>
+          <a class="header-logo" href='localhost:3000/home'><img src="\images\logo.jpg" alt='logo.jpg'></img></a>
           <div class="header-site-menu">
             <nav class="site-menu">
                 <ul>
-                  <li><a href="shop.html">選課規則</a></li>
-                  <li><a href="access.html">登出</a></li>
-              </ul>
+                  <li>首頁</li>
+                  <li>選課規則</li>
+                  <li>通知</li>
+                  <li>私訊</li>
+                </ul>
             </nav>
           </div>
         </div>
-        <h1>放假大學選課系統</h1>
-        <p>查看選課規則、選課時間和重要通知</p>
       </header>
 
       <div className="module-container">

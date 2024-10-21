@@ -1,4 +1,12 @@
 /* HomePage.css */
+@charset "utf-8";
+*,
+::before,
+::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 .homepage-container {
   font-family: 'Noto Sans TC', sans-serif;
@@ -13,35 +21,27 @@
   margin-right: auto;
 }
 
+.header-inner{
+  display: flex;
+}
+
+ul,ol{
+  list-style: none;
+}
+
 .homepage-container .header{
   background-color: rgb(171, 213, 255);
   color: white;
-  padding: 20px 0;
   margin-bottom: 30px;
   display: flex;
   font-size: 50px;
   align-items: center;
-  flex-direction: column;
+  flex-direction:column;
   text-align: center;
 }
 
-.header-inner{
-  max-width: 100%;
-  height: 110px;
-  display: flex;
-  
-}
-
-.site-menu ul {
-  display: flex;
-  text-decoration: none;
-}
-
-.header p{
-  font-size: 50px;
-}
-
-.homepage-container .module-container {
+.homepage-container 
+.module-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +49,17 @@
   width: 80%;
   border-radius: 35px;
   box-shadow: 0 0px 4px rgba(0, 0, 0, 0.15);
-  
+}
+
+.header-logo img{
+  display: block;
+  position: relative;
+  left: -210px;
+  width: 200px;
+}
+
+.site-menu ul{
+  display: flex;
 }
 
 .homepage-container .module {
