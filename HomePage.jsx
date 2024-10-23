@@ -83,8 +83,99 @@ function HomePage() {
                   <span className="text">數據結構 (星期五 10:00 - 12:00)  </span>
                 </button>
               </li>
-            </ul>
-            <button className="edit-schedule">編輯課表</button>
+              <li>
+                <button className="btn" onClick={() => alert("數位系統 (星期四 10:00 - 12:00)")}>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="text">數位系統 (星期四 10:00 - 12:00)  </span>
+                </button>
+              </li>
+              <li>
+                <button className="btn" onClick={() => alert("數位系統 (星期四 10:00 - 12:00)")}>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="text">攀岩 (星期四 14:00 - 16:00)  </span>
+                </button>
+              </li>
+              <li>
+                <button className="btn" onClick={() => alert("數位系統 (星期四 10:00 - 12:00)")}>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="text">籃球 (星期二 16:00 - 18:00)  </span>
+                </button>
+              </li>
+              <li>
+                <button className="btn" onClick={() => alert("數位系統 (星期四 10:00 - 12:00)")}>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="text">籃球 (星期二 16:00 - 18:00)  </span>
+                </button>
+              </li>
+              <li>
+                <button className="btn" onClick={() => alert("數位系統 (星期四 10:00 - 12:00)")}>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="text">籃球 (星期二 16:00 - 18:00)  </span>
+                </button>
+              </li>
+              <li>
+                <button className="btn" onClick={() => alert("數位系統 (星期四 10:00 - 12:00)")}>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="text">籃球 (星期二 16:00 - 18:00)  </span>
+                </button>
+              </li>
+              <li>
+                <button className="btn" onClick={() => alert("數位系統 (星期四 10:00 - 12:00)")}>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="dot"></span>
+                  <span className="text">籃球 (星期二 16:00 - 18:00)  </span>
+                </button>
+              </li>
+              <button className="edit-schedule">編輯課表</button>
+            </ul> 
           </div>
         </div>
       </div>
